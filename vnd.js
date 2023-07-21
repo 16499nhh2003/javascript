@@ -16,3 +16,4 @@ for (let i = 0; i < priceProduct.length; i++) {
   let priceValue = new Big(priceProduct[i].innerHTML); // Create a Big object with the price value
   priceProduct[i].innerText = VND.format(priceValue.toFixed(0)); // Use toFixed(0) to get the rounded integer value and format it
 }
+asdnasjdnk
